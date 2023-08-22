@@ -1,0 +1,18 @@
+//Write a Java program to calculate average of values of an array.
+package section_3;
+
+public class Assg_1 {
+
+	public static void main(String[] args) {
+		int arr [] = {100, 150, 200, 50, 180};
+		int sum=0;
+		for(int i=0; i<arr.length; i++)
+		{
+			sum=sum+arr[i];
+		}
+		
+		System.out.println("Sum of array: "+sum/arr.length);
+	}
+
+}
+

@@ -1,0 +1,23 @@
+package section_3;
+import java.util.Arrays;
+public class Assg_7 {
+
+	public static void main(String[] args) {
+
+		int a[] = {11, 45, 6, 7, 9};
+		int b[] = {11, 43, 9 , 1};
+		
+		boolean result = Arrays.equals(a, b);
+		
+		if(result == true)
+		{
+			System.out.println("Two array are equal");
+		}
+		else
+		{
+			System.out.println("Two array are not equal");
+		}
+
+	}
+
+}

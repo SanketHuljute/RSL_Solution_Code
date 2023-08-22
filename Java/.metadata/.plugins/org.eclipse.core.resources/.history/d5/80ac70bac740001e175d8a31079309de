@@ -1,0 +1,27 @@
+//Write a Java program count the number of digits of the number.
+
+package section_2;
+
+import java.util.Scanner;
+
+public class Assig_4 {
+
+	public static void main(String[] args) {
+    System.out.println("Enter the number: ");
+		
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int cnt=0;
+		System.out.println("The digit count is: ");
+		
+		while(num > 0)
+		{
+			num= num%10;
+			cnt++;
+		}
+		System.out.println("The digit count is: "+cnt);
+
+	}
+
+}
+
