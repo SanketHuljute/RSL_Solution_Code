@@ -1,0 +1,18 @@
+//Write the program to concatenate a given string to the end of the another string
+package section_4_String;
+import java.util.*;
+public class Assg_3 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("First String Is: ");
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		
+		System.out.println("Second String Is: ");
+		String str1 = sc.next();
+		
+		System.out.println("New String is: " +str.concat(" "+str1));	
+	}
+
+}
